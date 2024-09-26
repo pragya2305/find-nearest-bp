@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import StationDetails from './station-details';
 
-jest.mock('./station-list', () => {
+jest.mock('../station-list', () => {
 	return ({ stations, selectedStation, onStationSelect }) => (
 		<div data-testid='station-list'>
 			{stations.map((station) => (
@@ -21,7 +21,7 @@ jest.mock('./station-list', () => {
 	);
 });
 
-jest.mock('./station-map', () => {
+jest.mock('../station-map', () => {
 	return ({ stations, selectedStation, onStationSelect }) => (
 		<div data-testid='station-map'>
 			{stations.map((station) => (
