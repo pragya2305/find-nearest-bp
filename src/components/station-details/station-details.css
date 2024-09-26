@@ -1,0 +1,12 @@
+.stations-details {
+	flex: 1;
+	display: flex;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+	.stations-details {
+		flex-direction: column;
+	}
+}

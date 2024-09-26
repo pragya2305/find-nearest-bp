@@ -1,0 +1,17 @@
+.radius-selector {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.radius-selector label {
+	font-size: 16px;
+	color: #333;
+}
+
+.radius-selector select {
+	margin-left: 10px;
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}

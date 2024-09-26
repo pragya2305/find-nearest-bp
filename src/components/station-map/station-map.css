@@ -1,0 +1,13 @@
+.leaflet-container {
+	flex: 2; /* Take twice the width of the list */
+	height: 500px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+	.leaflet-container {
+		width: 100%;
+		height: 300px;
+	}
+}
